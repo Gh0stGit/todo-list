@@ -1,0 +1,99 @@
+.task-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.task-input{
+    width: 30rem;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding:  0 10px;
+    font-size: 16px;
+    /* font-weight: 500; */
+    box-shadow:  0 0 0 1px #919090;
+}
+
+.task-icon{
+    width: 2rem;
+    height:  2 rem;
+    position: relative;
+    right: 2.5rem;
+    top: 0.8rem;
+    padding: 0.1rem;
+    cursor: pointer;
+    background-color: #000000;
+    box-shadow: 0 0 0 1 px #131313dd;
+    border-radius: 50%;
+}
+
+.todos-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 25rem;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.trash-icon{
+    color: rgb(50, 15, 15);
+    cursor: pointer;
+    margin-right: 1.5rem;
+    width: 1.5rem;
+}
+
+.trash-icon:hover{
+    color: red;
+}
+
+.pencil-icon{
+    color: rgb(18, 16, 58);
+    cursor: pointer;
+    margin-right: 1.5rem;
+    width: 1.5rem;
+}
+
+.pencil-icon:hover{
+    color: blue;
+}
+
+.task-input:disabled{
+    background-color: #fff8f8;
+}
+
+@media (max-width: 768px) {
+    .todos-wrapper{
+        margin-top: 1rem;
+    }
+    .task-input{
+        width: 18,4rem;
+    }
+    .todo-item{
+        width: 21rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .todos-wrapper{
+        margin-top: 1rem;
+    }
+    .task-input{
+        width: 14rem;
+    }
+    .todo-item{
+        width: 18rem;
+    }
+}

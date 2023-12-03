@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+  font-family: "Courier New", 'Courier New', Courier, monospace;
+  color: aliceblue;
+  font-weight: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
